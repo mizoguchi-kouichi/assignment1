@@ -5,14 +5,11 @@ package com.kouichi;
 public class Main {
     public static void main(String[] args) {
 
-        for (int i = 0; i < 30; i++) {
+        for (int i = 0; i < 20; i++) {
             if (i <=10){
                 System.out.println("hello world");
             } else if (i <=20){
                 System.out.println("hello");
-
-            } else if (i <=30) {
-                System.out.println("world");
 
             }
 
