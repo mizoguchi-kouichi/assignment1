@@ -9,9 +9,11 @@ public class Main {
         for (int i = 0; i < j; i++) {
             if (i <= 10){
                 System.out.println("hello world");
-            } else if (10 < i){
+            } else if (i >= 10 && i < 19){
                 System.out.println("hello");
 
+            } else if (i > 19) {
+                throw new RuntimeException("jは20回以下の数字をいれてください");
             }
 
         }
