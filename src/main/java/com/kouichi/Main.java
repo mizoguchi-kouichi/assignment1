@@ -9,7 +9,7 @@ public class Main {
             if (i <=10){
                 System.out.println("hello world");
             } else if (i <=20){
-                System.out.println("hello");
+                System.out.println("world");
 
             }
 
